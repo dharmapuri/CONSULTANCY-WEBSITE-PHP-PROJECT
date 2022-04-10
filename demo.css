@@ -1,0 +1,669 @@
+body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+@font-face
+{
+font-family: leaguespartan;
+src: url(LeagueSpartan.otf);
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+.content
+{
+  min-height: 600px;
+}
+
+.header
+{
+  z-index: 10;
+  background-color: white;
+  border-bottom-color: #D3D3D3;
+  border-left-color: white;
+  border-top-color: white;
+  border-right-color: white;
+  min-height: 60px;
+  border-style: solid;
+  border-bottom-width: thin;
+  position: sticky;
+  top: 0px;
+  width: 1512px;
+}
+
+.Home
+{
+  float: right;
+  position: relative;
+  padding: 19px;
+  font-family: leaguespartan;
+  font-weight: normal;
+  right: 460px;
+  border-bottom-style: none;
+}
+
+.Services
+{
+  float: right;
+  position: relative;
+  padding: 19px;
+  font-family: leaguespartan;
+  font-weight: normal;
+  right: 265px;
+  border-bottom-style: none;
+}
+
+.About
+{
+  float: right;
+  position: relative;
+  padding: 19px;
+  font-family: leaguespartan;
+  font-weight: normal;
+  right: 45px;
+}
+
+.Contact
+{
+  float: right;
+  position: relative;
+  padding: 19px;
+  font-family: leaguespartan;
+  font-weight: normal;
+  left: 190px;
+}
+
+.Logout
+{
+  float: right;
+  position: relative;
+  padding: 19px;
+  font-family: leaguespartan;
+  font-weight: normal;
+  left: 410px;
+}
+
+.innerblock
+{
+  position: relative;
+  bottom: 605px;
+  left: 100px;
+  padding: 40px 0px;
+  width: 39%;
+}
+
+.innerblock p
+{
+  position: relative;
+  bottom: 112px;
+  background-color: #B0E0E6;
+  color:#00008B	;
+  font-family: leaguespartan;
+  font-weight: lighter;
+  padding: 4px;
+  width: 41%;
+}
+
+#catchy
+{
+  position: relative;
+  bottom: 90px;
+  font-family: leaguespartan;
+  font-size: 50.2px;
+}
+
+.cursor::after
+{
+  content: "|";
+  font-size: 1.5em;
+  font-family: auto;
+  font-weight: lighter;
+  animation: blink infinite 0.7s;
+  animation-delay: 1.5s;
+}
+
+.logo img
+{
+float: left;
+height: 41px;
+padding: 9px 24px;
+position: relative;
+left: 6px;
+}
+
+.logo
+{
+  float: left;
+  height: 50px;
+  padding: 0px 20px;
+}
+
+.logo p
+{
+  font-family: leaguespartan;
+  font-size: 18px;
+  color: #006633;
+  font-weight: bold;
+  position: relative;
+  padding-left: 116px;
+  right: 20px;
+  top: 3px;
+}
+
+#slide
+{
+  left: -350px;
+  animation: slider 0.4s forwards;
+  animation-delay: 0.4s;
+}
+
+#slide1
+{
+  left:-250px;
+  animation: slide 0.2s forwards;
+  animation-delay: 0.2s;
+}
+
+#slide2
+{
+  left: -380px;
+  animation: slide 1s forwards;
+  animation-delay: 0.7s;
+}
+
+@keyframes slide
+{
+    100% { left: 0; }
+}
+
+@keyframes slider
+{
+  100% {left:-20px;}
+}
+@keyframes blink {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.catchynext
+{
+position: relative;
+bottom: 61px;
+font-family: system-ui;
+font-weight: 400;
+font-size: 19px;
+animation: fadein;
+animation-duration: 4.5s;
+}
+
+@keyframes fadein
+{
+  0%
+  {
+    opacity: 0;
+  }
+
+   25%{opacity: 0;}
+
+   50%{opacity: 0;}
+   75%{opacity: 0;}
+   95%{opacity: 0;}
+   100%
+   {
+     opacity: 1;
+   }
+}
+
+.catchynext1
+{
+  position: relative;
+  bottom: 31px;
+  font-family: system-ui;
+  font-weight: 400;
+  font-size: 19px;
+  animation: fadein;
+  animation-duration: 4.5s;
+}
+.button
+{
+  position: relative;
+  background-color:purple;
+  border: none;
+  color: #FFF7EF;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  top:45px;
+  right: 83px;
+  font-family: leaguespartan;
+  animation: fadein ;
+  animation-duration: 4.8s;
+}
+#button1
+{
+  top:215px;
+  left:190px;  
+}
+.servicespage
+{
+  position: relative;
+  width: 94%;
+  bottom: 402px;
+}
+
+.sertag
+{
+  position: relative;
+  background-color: orangered;
+  color: white;
+  font-family: leaguespartan;
+  font-weight: lighter;
+  padding: 20px;
+  width: 8%;
+  bottom: 770px;
+  left: 650px;
+  border-radius: 30px;
+  border-bottom-left-radius: 1px;
+  visibility: hidden;
+}
+
+#servicetag1
+{
+  visibility: visible;
+  animation: fadeandscale 0.5s cubic-bezier(.39,-1.05,.58,1.95);
+  transform-origin: center bottom;
+}
+
+.sertag1
+{
+  position: relative;
+  color: MIDNIGHTBLUE;
+  width: 52%;
+  font-family: 'leaguespartan';
+  font-size: 25px;
+  bottom: 760px;
+  left: 524px;
+  visibility: hidden;
+}
+
+#tag1
+{
+  visibility: visible;
+  animation: fadeandscale 1s cubic-bezier(.39,-1.05,.58,1.95);
+  transform-origin: center bottom;
+}
+
+.card
+{
+position: relative;
+bottom: 740px;
+left: 160px;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border-radius: 0.25rem;
+border: 1px solid rgba(0,0,0,.125);
+height: 35rem;
+visibility: hidden;
+}
+
+.card-img-top
+{
+  display: block;
+  width:100%;
+  height: 270px;
+}
+
+.card-body
+{
+  padding: 1.25rem;
+}
+
+.card-title
+{
+      font-family: 'leaguespartan';
+      position: relative;
+      bottom: 68px;
+      left: 60px;
+      font-size: 25px;
+}
+
+.card-text
+{
+  position: relative;
+  bottom: 90px;
+  font-family: system-ui;
+}
+
+.btn-primary
+{
+color: #fff;
+background-color: #007bff;
+border-color: #007bff;
+padding: 1rem;
+position: relative;
+bottom: 60px;
+font-family: sans-serif;
+}
+
+#card-1
+{
+  position: relative;
+  left: 571px;
+  bottom: 1301px;
+  visibility: hidden;
+}
+#cardanim0
+{
+  visibility: visible;
+  animation: fadeandscale 1.5s cubic-bezier(.39,-1.05,.58,1.95);
+}
+#cardanim1
+{
+  visibility: visible;
+  position: relative;
+  left: 571px;
+  bottom: 1301px;
+  animation: fadeandscale 2s cubic-bezier(.39,-1.05,.58,1.95);
+}
+
+#card-2
+{
+  position: relative;
+  left: 990px;
+  bottom: 1861px;
+  visibility: hidden;
+}
+
+#cardanim2
+{
+  visibility: visible;
+  position: relative;
+  left: 990px;
+  bottom: 1861px;
+  animation: fadeandscale 2.5s cubic-bezier(.39,-1.05,.58,1.95);
+}
+
+#bigdata
+{
+  height: 230px;
+}
+
+#card-title1
+{
+  bottom: 57px;
+  left: 19px;
+}
+
+#card-title2
+{
+  left: 5px;
+}
+#card-title3
+{
+  left: 20px;
+  bottom:39px;
+}
+
+#btn1
+{
+  bottom: 55px;
+}
+
+#btn3
+{
+  bottom: 35px;
+}
+
+#cardtext1
+{
+  bottom: 85px;
+  font-family: system-ui;
+}
+
+#cardtext3
+{
+  bottom: 66px;
+}
+
+@keyframes fadeandscale
+{
+  0%
+  {
+    opacity: 0;
+    transform: scale3d(.75,.75,1);
+  }
+
+  70%
+  {
+    opacity: 0;
+    transform: scale3d(.75,.75,1);
+  }
+
+  100%
+  {
+    opacity: 1;
+    transform: scale3d(1,1,1);
+  }
+
+}
+
+.Aboutuspage
+{
+  position: relative;
+  bottom: 2250px;
+  height: 1500px;
+}
+.aboutlogo
+{
+  position: relative;
+  bottom: 1450px;
+  left: 700px;
+  width: 150px;
+  visibility: hidden;
+}
+
+#logoabout1
+{
+  visibility: visible;
+  animation: fadeandscale 0.2s cubic-bezier(.39,-1.05,.58,1.95);
+}
+
+.about0
+{
+  position: relative;
+bottom: 1475px;
+width: 20%;
+left: 697px;
+font-family: 'leaguespartan';
+font-size: 35px;
+color: midnightblue;
+visibility: hidden;
+}
+
+#aboutus1
+{
+  visibility: visible;
+  animation: fadeandscale 0.5s cubic-bezier(.39,-1.05,.58,1.95);
+}
+
+.aboutimage1
+{
+  position: relative;
+  width: 25%;
+  bottom: 1400px;
+  left: 900px;
+  visibility: hidden;
+}
+
+#image1
+{
+  visibility: visible;
+  animation: fadeup 0.3s ease-in;
+}
+
+.abouttag
+{
+  position: relative;
+  width: 25%;
+  bottom: 1690px;
+  left: 255px;
+  font-family: leaguespartan;
+  font-size: 25px;
+  visibility: hidden;
+}
+
+#tagabout1
+{
+  visibility: visible;
+  animation: fadein 0.5s ease-in;
+}
+
+.abouttext1
+{
+  position: relative;
+  width: 40%;
+  bottom: 1690px;
+  left: 255px;
+  font-family: system-ui;
+  font-size: 16px;
+  visibility: hidden;
+}
+
+#textabout1
+{
+  visibility: visible;
+  animation: fadein 0.5s ease-in;
+}
+
+.aboutimage2
+{
+  position: relative;
+  width: 20%;
+  bottom: 1635px;
+  left: 212px;
+  visibility: hidden;
+}
+
+#image22
+{
+  visibility: visible;
+  animation: fadeup 0.3s ease-in;
+}
+
+.abouttext2
+{
+  position: relative;
+  width: 40%;
+  bottom: 1850px;
+  left: 580px;
+  font-family: system-ui;
+  font-size: 16px;
+  visibility: hidden;
+}
+
+#text22
+{
+  visibility: visible;
+  animation: fadein 0.5s ease-in;
+}
+
+.aboutimage3
+{
+  position: relative;
+  width: 25%;
+  bottom: 1710px;
+  left: 900px;
+  visibility: hidden;
+}
+
+#image33
+{
+  visibility: visible;
+  animation: fadeup 0.3s ease-in;
+}
+
+.abouttext3
+{
+  position: relative;
+  width: 40%;
+  bottom: 1900px;
+  left: 255px;
+  font-family: system-ui;
+  font-size: 16px;
+  visibility: hidden;
+}
+
+#text33
+{
+  visibility: visible;
+  animation: fadein 0.5s ease-in;
+}
+
+@keyframes fadeup
+{
+  0%
+  {
+    opacity: 0;
+
+  }
+
+  70%
+  {
+    opacity: 0;
+
+  }
+
+  100%
+  {
+    opacity: 1;
+
+  }
+}
+
+.newyork
+{
+  position: relative;
+  bottom: 2250px;
+}
+.box
+{
+  width: 95.5%;
+  padding: 30px;
+  height: 955px;
+  position: relative;
+  bottom: 3269px;
+  background-color: #7e69cb;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+#contactcard1
+{
+  width: 38.1rem;
+  position: relative;
+  left: 900px;
+  height: 558px;
+  bottom: 3980px;
+  visibility: visible;
+}
+#frame
+{
+border: 0;
+position: relative;
+bottom: 4539px;
+left: 35px;
+height: 567px;
+width: 56%;
+}
